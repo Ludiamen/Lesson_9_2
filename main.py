@@ -33,7 +33,7 @@ class YaUploader:
 if __name__ == '__main__':
     # Получаем путь к загружаемому файлу и токен от пользователя
     path_to_file = '/home/gpgr/Загрузки/tasks-math-4-11-sch-msk-20-21.pdf'
-    token = 'AQAAAAANE-3nAADLW4qOMeHusUmSokIFTDvmhRc'
+    token = ''
     # Определяем экземпляр класса для токена пользователя
     uploader = YaUploader(token)
     # Загружаем файл на диск
