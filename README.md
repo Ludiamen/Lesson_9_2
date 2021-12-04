@@ -14,7 +14,8 @@ HOST: [https://cloud-api.yandex.net:443/](https://cloud-api.yandex.net:443/)
 
 Шаблон для программы
 
-```class YaUploader:
+```python
+class YaUploader:
     def __init__(self, token: str):
         self.token = token
 
@@ -30,4 +31,4 @@ if __name__ == '__main__':
     token = ...
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
-    ```
+```
